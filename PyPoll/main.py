@@ -17,8 +17,8 @@ This is a temporary script file.
 import csv
 import os
 
-file_to_load = os.path.join("Resources", "C:/Users/ibraa/OneDrive/Desktop/VU-VIRT-DATA-PT-08-2024-U-LOLC/challange 3-20240923T231915Z-001/challange 3/Starter_Code/PyPoll/Resources/election_data.csv")  # Input file path
-file_to_output = os.path.join("analysis", "C:/Users/ibraa/OneDrive/Desktop/VU-VIRT-DATA-PT-08-2024-U-LOLC/challange 3-20240923T231915Z-001/challange 3/Starter_Code/PyPoll/Resources/election-data.txt")  # Output file path
+file_to_load = os.path.join("Resources", "/Resources/election_data.csv")  
+file_to_output = os.path.join("analysis", "/analysis/election-data.txt") 
 
 total_votes = 0
 candidates = {}

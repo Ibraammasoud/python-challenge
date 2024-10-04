@@ -9,8 +9,8 @@ import csv
 import os
 
 
-file_to_load = os.path.join("Resources", "C:/Users/Ibraam Masoud/Desktop/BootCamp/challange 3/Starter_Code/PyBank/Resources/budget_data.csv")  
-file_to_output = os.path.join("analysis", "C:/Users/Ibraam Masoud/Desktop/BootCamp/challange 3/Starter_Code/PyBank/Resources/budget_analysis.txt")  
+file_to_load = os.path.join("Resources", "/Resources/budget_data.csv")  
+file_to_output = os.path.join("analysis", "/analysis/budget_analysis.txt")  
 
 total_months = 0
 total_net = 0
